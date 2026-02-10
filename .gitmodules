@@ -1,0 +1,9 @@
+[submodule "webapp"]
+	path = webapp
+	url = https://github.com/coderaugment/bonsai-app.git
+[submodule "agent"]
+	path = agent
+	url = https://github.com/coderaugment/bonsai-agent.git
+[submodule "www"]
+	path = www
+	url = https://github.com/coderaugment/bonsai-www.git

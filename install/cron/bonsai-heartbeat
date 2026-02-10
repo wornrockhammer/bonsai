@@ -1,0 +1,8 @@
+# Bonsai Heartbeat - runs every minute
+# Installation: Copy to /etc/cron.d/ or add to user crontab with `crontab -e`
+
+SHELL=/bin/bash
+PATH=/usr/local/bin:/usr/bin:/bin
+HOME=__HOME__
+
+* * * * * __USER__ __HEARTBEAT_PATH__ >> __HOME__/.bonsai/logs/cron.log 2>&1
